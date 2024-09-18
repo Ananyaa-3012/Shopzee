@@ -14,7 +14,7 @@ Install all dependencies by performing
 
 ### Step 2
 Initiate Redis Server using the command 
-```sudo redis server start```
+```sudo service redis-server start```
 
 ### Step 3
 Run celery beat and celery worker using the command 
