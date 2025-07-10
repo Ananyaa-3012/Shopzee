@@ -1,6 +1,6 @@
 from routes import app
 from routes.worker import celery_init_app
-from celery.schedules import crontab
+from celery.schedules import crontab # type: ignore
 from routes.tasks import *
 
 celery_app = celery_init_app(app)

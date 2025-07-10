@@ -1,6 +1,6 @@
 backend/.venv
-backend/__pycache__/*
-backend/model/__pycache__/*
-backend/tokensJWT/__pycache__/*
-backend/routes/__pycache__/*
-frontend//node_modules
+backend/__pycache__
+backend/model/__pycache__
+backend/tokensJWT/__pycache__
+backend/routes/__pycache__
+frontend/node_modules
