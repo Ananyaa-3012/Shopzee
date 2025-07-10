@@ -12,6 +12,9 @@ Navigate to `backend` folder
 Install all dependencies by performing 
 ```pip install -r requirements.txt```
 
+Install redis on your system if not already by using the command
+```sudo apt-get install redis```
+
 ### Step 2
 Initiate Redis Server using the command 
 ```sudo service redis-server start```
